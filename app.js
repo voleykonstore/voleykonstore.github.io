@@ -89,10 +89,10 @@ function csvToProducts(text){
   const head=rows[0].map(h=>h.toLowerCase().trim()), idx=n=>head.findIndex(h=>h.includes(n));
   const c={img:idx("фото"),model:idx("модел"),brand:idx("бренд"),
     cw:idx("расцвет")>-1?idx("расцвет"):idx("цвет"),sizes:idx("размер"),
-    stock:idx("налич")>-1?idx("налич"):idx("сток"),note:idx("примеч")};
+    stock:idx("налич")>-1?idx("налич"):idx("сток"),price:idx("цена"),note:idx("примеч")};
   return rows.slice(1).map(r=>({img:(r[c.img]||"").trim(),model:(r[c.model]||"").trim(),
     brand:(r[c.brand]||"").trim(),colorway:(r[c.cw]||"").trim(),sizes:(r[c.sizes]||"").trim(),
-    stock:(r[c.stock]||"").trim(),note:(r[c.note]||"").trim()})).filter(p=>p.model);
+    stock:(r[c.stock]||"").trim(),price:(r[c.price]||"").trim(),note:(r[c.note]||"").trim()})).filter(p=>p.model);
 }
 
 async function load(){
@@ -104,10 +104,10 @@ async function load(){
   all.forEach(p=>{
     const key=[(p.brand||"").toLowerCase().trim(),(p.model||"").toLowerCase().trim(),(p.colorway||"").toLowerCase().trim()].join("|");
     let g=map.get(key);
-    if(!g){ g={model:p.model,brand:p.brand||"",colorway:p.colorway||"",img:p.img||"",note:p.note||"",_eu:new Set(),under:false,inStock:false}; map.set(key,g); }
+    if(!g){ g={model:p.model,brand:p.brand||"",colorway:p.colorway||"",img:p.img||"",note:p.note||"",price:p.price||"",_eu:new Set(),under:false,inStock:false}; map.set(key,g); }
     splitSizes(p.sizes).forEach(t=>{ isNumSize(t)?g._eu.add(euNorm(t)):g.under=true; });
     if(inStock(p.stock)) g.inStock=true;
-    if(!g.img&&p.img) g.img=p.img; if(!g.note&&p.note) g.note=p.note;
+    if(!g.img&&p.img) g.img=p.img; if(!g.note&&p.note) g.note=p.note; if(!g.price&&p.price) g.price=p.price;
   });
   GROUPS=[...map.values()].map(g=>{ const key=brandKey(g.brand);
     const sizes=[...g._eu].sort((a,b)=>parseFloat(a)-parseFloat(b)).map(v=>convert(v,key));
@@ -133,10 +133,12 @@ function order(g,s){
   if(g.colorway) parts.push("Цвет: "+g.colorway);
   if(s && s.eu){ let r="Размер: EU "+s.eu; if(s.us) r+=" / US "+s.us; if(s.cm) r+=" / "+s.cm+" см"; parts.push(r); }
   else parts.push("Размер: уточню (под заказ)");
+  if(g.price) parts.push("Цена: "+priceFmt(g.price));
   const url="https://t.me/"+MANAGER+"?text="+encodeURIComponent(parts.join("\n"));
   if(tg&&tg.openTelegramLink) tg.openTelegramLink(url); else window.open(url,"_blank");
 }
 const convLine = s => s ? `EU ${s.eu}${s.us?" · US "+s.us:""}${s.cm?" · "+s.cm+" см":""}` : "";
+const priceFmt = p => { p=String(p||"").trim(); if(!p) return ""; return /^\d[\d\s]*$/.test(p) ? p.replace(/\s/g,"").replace(/\B(?=(\d{3})+(?!\d))/g," ")+" ₽" : p; };
 
 function render(){
   const wrap=$("#grid"), list=GROUPS.filter(match);
@@ -158,6 +160,7 @@ function render(){
     card.innerHTML=`<div class="ph">${badge}${brand}${img}</div>
       <div class="info"><div class="model">${g.model}</div>
       ${g.colorway?`<div class="cw">${g.colorway}</div>`:""}
+      ${g.price?`<div class="price">${priceFmt(g.price)}</div>`:""}
       ${sz}${g.note?`<div class="note">${g.note}</div>`:""}
       <button class="buy">ЗАКАЗАТЬ</button></div>`;
     let sel=g.sizes[0]||null;
