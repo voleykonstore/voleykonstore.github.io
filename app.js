@@ -68,10 +68,10 @@ const PHOTOS = {
   "wayofwade10|sunshinestate":"images/wow10-sunshine.jpg",
   "wayofwade10|announcement":"images/wow10-announcement.jpg",
   "airzoomgtjump2|greaterthanever":"images/gtjump2-greater.jpg",
-  "airzoomgtjump2|barelygrape":"images/gtjump2-grape.jpg",
+  "airzoomgtjump2|barelygrape":"images/gtjump2-grape.jpg?v=2",
   "allcity12encore|avocado":"images/allcity12-avocado.jpg",
   "ja3|turbogreen":"images/ja3-turbogreen.jpg",
-  "skyeliteffmt3|novaorange":"images/asics-skyelite.jpg"
+  "skyeliteffmt3|novaorange":"images/asics-skyelite.jpg?v=2"
 };
 
 function parseCSV(text){
