@@ -40,6 +40,7 @@ html,body{margin:0;background:var(--bg);color:var(--txt);
 .info{padding:11px 12px 13px;display:flex;flex-direction:column;gap:3px;flex:1}
 .model{font-family:Oswald,sans-serif;font-weight:700;font-size:16px;line-height:1.1}
 .cw{color:var(--mut);font-size:12px}
+.price{font-family:Oswald,sans-serif;font-weight:700;font-size:20px;color:#fff;margin-top:5px}
 .szlabel{font-size:12.5px;color:var(--mut);margin-top:6px}
 .szlabel.under{color:var(--orange);font-weight:700;font-family:Oswald,sans-serif}
 .szrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:5px}
