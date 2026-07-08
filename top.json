@@ -1,9 +1,66 @@
 [
   {
+    "model": "Nike LeBron 21",
+    "brand": "Nike",
+    "sport": "basket",
+    "priceFrom": 15000,
+    "note": "Флагман Леброна — амортизация Zoom + Cushlon",
+    "colors": [
+      { "name": "Tahitian", "img": "images/lebron21-tahitian.jpg" },
+      { "name": "Purple Rain", "img": "images/lebron21-purplerain.jpg" },
+      { "name": "Easter", "img": "images/lebron21-easter.jpg" }
+    ]
+  },
+  {
+    "model": "Puma MB.03 (LaMelo Ball)",
+    "brand": "Puma",
+    "sport": "basket",
+    "priceFrom": 11000,
+    "note": "Ламело — яркие, амортизация NITRO",
+    "colors": [
+      { "name": "Toxic", "img": "images/mb03-toxic.jpg" },
+      { "name": "Blue Hive", "img": "images/mb03-bluehive.jpg" },
+      { "name": "KidSuper", "img": "images/mb03-kidsuper.jpg" }
+    ]
+  },
+  {
+    "model": "Jordan Tatum 2",
+    "brand": "Jordan",
+    "sport": "basket",
+    "priceFrom": 11000,
+    "note": "Тейтум — лёгкая, отзывчивая, топ по цене",
+    "colors": [
+      { "name": "Mama's Boy", "img": "images/tatum2-mamasboy.jpg" },
+      { "name": "Neon", "img": "images/tatum2-neon.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Air Zoom G.T. Jump 2",
+    "brand": "Nike",
+    "sport": "basket",
+    "priceFrom": 14000,
+    "note": "Для прыжка и игры над кольцом",
+    "colors": [
+      { "name": "Greater Than Ever", "img": "images/gtjump2-greater.jpg" },
+      { "name": "Barely Grape", "img": "images/gtjump2-grape.jpg?v=2" }
+    ]
+  },
+  {
+    "model": "Nike Air Zoom G.T. Hustle 3",
+    "brand": "Nike",
+    "sport": "basket",
+    "priceFrom": 14500,
+    "note": "Мощный универсал для форвардов и центровых",
+    "colors": [
+      { "name": "White Royal Pulse", "img": "images/gthustle3-royalpulse.jpg" },
+      { "name": "Hyper Pink", "img": "images/gthustle3-hyperpink.jpg" }
+    ]
+  },
+  {
     "model": "Li-Ning Way of Wade 10",
     "brand": "Li-Ning",
     "sport": "basket",
-    "priceFrom": 8900,
+    "priceFrom": 9000,
     "note": "Амортизация BOOM, топ по цене/качеству",
     "colors": [
       { "name": "Caution", "img": "images/wow10-caution.jpg" },
@@ -13,21 +70,33 @@
     ]
   },
   {
-    "model": "Nike Air Zoom G.T. Jump 2",
+    "model": "Nike Zoom Freak 4",
     "brand": "Nike",
     "sport": "basket",
-    "priceFrom": 13900,
-    "note": "Для прыжка и игры над кольцом",
+    "priceFrom": 10500,
+    "note": "Джаннис — цепкая, для рывков и напора",
     "colors": [
-      { "name": "Greater Than Ever", "img": "images/gtjump2-greater.jpg" },
-      { "name": "Barely Grape", "img": "images/gtjump2-grape.jpg?v=2" }
+      { "name": "University Red", "img": "images/freak4-red.jpg" },
+      { "name": "All-Star", "img": "images/freak4-allstar.jpg" }
+    ]
+  },
+  {
+    "model": "Nike LeBron Witness 7",
+    "brand": "Nike",
+    "sport": "basket",
+    "priceFrom": 10000,
+    "note": "Бюджетный Леброн, надёжный на сезон",
+    "colors": [
+      { "name": "Lakers", "img": "images/witness7-lakers.jpg" },
+      { "name": "Bred", "img": "images/witness7-bred.jpg" },
+      { "name": "Multi-Color", "img": "images/witness7-multicolor.jpg" }
     ]
   },
   {
     "model": "Nike Ja 3",
     "brand": "Nike",
     "sport": "basket",
-    "priceFrom": 9900,
+    "priceFrom": 11000,
     "note": "Лёгкие, для быстрых гардов",
     "colors": [
       { "name": "Turbo Green", "img": "images/ja3-turbogreen.jpg" }
@@ -37,7 +106,7 @@
     "model": "Li-Ning All City 12",
     "brand": "Li-Ning",
     "sport": "basket",
-    "priceFrom": 7500,
+    "priceFrom": 8500,
     "note": "Недорогой универсал на каждый день",
     "colors": [
       { "name": "Avocado", "img": "images/allcity12-avocado.jpg" }
@@ -47,7 +116,7 @@
     "model": "Jordan Jumpman 2021",
     "brand": "Jordan",
     "sport": "basket",
-    "priceFrom": 11900,
+    "priceFrom": 10500,
     "note": "Классика Jordan Brand",
     "colors": [
       { "name": "Grape", "img": "images/jordan.jpg" }
@@ -57,7 +126,7 @@
     "model": "Asics Sky Elite FF MT 3",
     "brand": "Asics",
     "sport": "volley",
-    "priceFrom": 12900,
+    "priceFrom": 13000,
     "note": "Волейбол — топовая амортизация FF",
     "colors": [
       { "name": "Nova Orange", "img": "images/asics-skyelite.jpg?v=2" }
