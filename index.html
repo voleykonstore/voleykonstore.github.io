@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#0E0E10">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="styles.css?v=4">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -32,6 +32,11 @@
 
   <div id="sizes" class="view" style="display:none">
     <div class="sztip">📏 <b>Как узнать свой размер.</b> Встань пяткой к стене, поставь стопу на лист, отметь кончик большого пальца и измерь расстояние в см. Это самый точный способ — ищи свою длину стопы в таблице бренда.</div>
+    <a class="szdl" href="lineyka-razmera.pdf" target="_blank" rel="noopener"
+       onclick="if(window.Telegram&&Telegram.WebApp&&Telegram.WebApp.openLink){Telegram.WebApp.openLink(this.href);return false;}">
+      <span class="szdl-t">📏 Скачать линейку для замера</span>
+      <span class="szdl-s">PDF · 3 листа A4 · печатай в масштабе 100%</span>
+    </a>
     <input id="cm" type="number" inputmode="decimal" step="0.1" placeholder="Введи длину стопы, см — напр. 27.5">
     <div id="szresult" class="szresult" style="display:none"></div>
     <div class="filters" id="brandtabs"></div>
