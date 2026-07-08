@@ -70,8 +70,8 @@ const PHOTOS = {
   "airzoomgtjump2|greaterthanever":"images/gtjump2-greater.jpg",
   "airzoomgtjump2|barelygrape":"images/gtjump2-grape.jpg?v=2",
   "allcity12encore|avocado":"images/allcity12-avocado.jpg",
-  "ja3|turbogreen":"images/ja3-turbogreen.jpg",
-  "skyeliteffmt3|novaorange":"images/asics-skyelite.jpg?v=2"
+  "ja3|turbogreen":"images/ja3-turbogreen.jpg?v=2",
+  "skyeliteffmt3|novaorange":"images/asics-skyelite.jpg?v=3"
 };
 
 function parseCSV(text){
@@ -194,79 +194,14 @@ function renderSizes(){
   if(cmv&&hl>=0){ const r=grid[hl]; res.style.display="block"; res.innerHTML=`Длина стопы <b>${String(cmv).replace(".",",")} см</b> → твой размер: <b>EU ${r[0]} · US ${r[1]}</b>`; }
   else res.style.display="none";
 }
-/* ===== вкладка «Под заказ» (топ моделей, несколько расцветок = смена фото) ===== */
-let TOP=[], TOPFILTER="all";
-const SPORT={basket:"🏀 Баскет", volley:"🏐 Волейбол"};
-async function loadTop(){
-  try{ TOP=await (await fetch("top.json?t="+Date.now())).json(); }catch(e){ TOP=[]; }
-  TOP=(TOP||[]).filter(m=>m&&m.model&&Array.isArray(m.colors)&&m.colors.length);
-  buildTopFilters(); renderTop();
-}
-function buildTopFilters(){
-  const sports=[...new Set(TOP.map(m=>m.sport).filter(Boolean))];
-  const brands=[...new Set(TOP.map(m=>m.brand).filter(Boolean))];
-  const defs=[["all","Все"]]
-    .concat(sports.map(s=>["s:"+s, SPORT[s]||s]))
-    .concat(brands.map(b=>["b:"+b, b]));
-  const f=$("#topfilters"); f.innerHTML="";
-  defs.forEach(([k,label])=>{ const el=document.createElement("button");
-    el.className="chip"+(k===TOPFILTER?" active":""); el.textContent=label;
-    el.onclick=()=>{TOPFILTER=k;[...f.children].forEach(c=>c.classList.remove("active"));el.classList.add("active");renderTop();};
-    f.appendChild(el); });
-}
-const topMatch=m=> TOPFILTER==="all"?true
-  : TOPFILTER.startsWith("s:")?m.sport===TOPFILTER.slice(2)
-  : TOPFILTER.startsWith("b:")?m.brand===TOPFILTER.slice(2):true;
-
-function orderTop(m,c){
-  const parts=["Здравствуйте! Хочу заказать пару (под заказ):","Модель: "+m.model];
-  if(m.brand) parts.push("Бренд: "+m.brand);
-  if(c&&c.name) parts.push("Цвет: "+c.name);
-  if(m.priceFrom) parts.push("Цена: от "+priceFmt(m.priceFrom));
-  parts.push("Размер уточню в ЛС");
-  const url="https://t.me/"+MANAGER+"?text="+encodeURIComponent(parts.join("\n"));
-  if(tg&&tg.openTelegramLink) tg.openTelegramLink(url); else window.open(url,"_blank");
-}
-function renderTop(){
-  const wrap=$("#topgrid"), list=TOP.filter(topMatch);
-  if(!list.length){ wrap.innerHTML='<div class="empty">Пока пусто в этом разделе 👟</div>'; return; }
-  wrap.innerHTML="";
-  list.forEach(m=>{
-    const c0=m.colors[0];
-    const brand=m.brand?`<span class="brand">${m.brand}</span>`:"";
-    const thumbs=m.colors.map((c,i)=>
-      `<button class="thumb${i===0?' sel':''}" data-i="${i}" title="${c.name||''}"><img src="${c.img}" loading="lazy" onerror="this.style.display='none'"></button>`).join("");
-    const card=document.createElement("div"); card.className="card";
-    card.innerHTML=`<div class="ph"><span class="badge order">под заказ</span>${brand}
-        <img class="hero" src="${c0.img}" loading="lazy" onerror="this.style.display='none'"></div>
-      <div class="info">
-        <div class="model">${m.model}</div>
-        <div class="cwname">${c0.name||""}</div>
-        <div class="thumbs">${thumbs}</div>
-        ${m.priceFrom?`<div class="pricefrom"><span class="from">от</span>${priceFmt(m.priceFrom)}</div>`:""}
-        ${m.note?`<div class="note">${m.note}</div>`:""}
-        <button class="buy">ЗАКАЗАТЬ</button></div>`;
-    let sel=c0;
-    const hero=card.querySelector(".hero"), name=card.querySelector(".cwname");
-    card.querySelectorAll(".thumb").forEach(th=>th.onclick=()=>{
-      card.querySelectorAll(".thumb").forEach(x=>x.classList.remove("sel")); th.classList.add("sel");
-      sel=m.colors[+th.dataset.i];
-      if(hero){ hero.style.display=""; hero.src=sel.img; } if(name) name.textContent=sel.name||"";
-    });
-    card.querySelector(".buy").onclick=()=>orderTop(m,sel);
-    wrap.appendChild(card);
-  });
-}
-
 function initTabs(){
   document.querySelectorAll(".tab").forEach(t=>t.onclick=()=>{
     document.querySelectorAll(".tab").forEach(x=>x.classList.remove("active")); t.classList.add("active");
     const v=t.dataset.v;
     $("#catalog").style.display = v==="catalog"?"":"none";
-    $("#top").style.display     = v==="top"?"":"none";
     $("#sizes").style.display   = v==="sizes"?"":"none";
   });
   $("#cm").addEventListener("input",renderSizes);
 }
 initTabs(); buildBrandTabs(); renderSizes();
-load(); loadTop();
+load();
