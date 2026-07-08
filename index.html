@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#0E0E10">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=4">
+<link rel="stylesheet" href="styles.css?v=5">
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
@@ -22,12 +22,19 @@
 
   <div class="tabs">
     <button class="tab active" data-v="catalog">🛍 Каталог</button>
+    <button class="tab" data-v="top">🔥 Под заказ</button>
     <button class="tab" data-v="sizes">📏 Размеры</button>
   </div>
 
   <div id="catalog" class="view">
     <div class="filters" id="filters"></div>
     <div class="grid" id="grid"></div>
+  </div>
+
+  <div id="top" class="view" style="display:none">
+    <div class="toptip">🔥 <b>Топ под заказ.</b> Популярные модели с Poizon — оригинал, доставка ~12–20 дней. Выбери расцветку → «Заказать», размер и точную цену подберём в ЛС.</div>
+    <div class="filters" id="topfilters"></div>
+    <div class="grid" id="topgrid"></div>
   </div>
 
   <div id="sizes" class="view" style="display:none">
@@ -50,6 +57,6 @@
 <div class="foot">
   <a class="cta" href="https://t.me/offangle1" target="_blank">Задать вопрос → @offangle1</a>
 </div>
-<script src="app.js?v=3"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>
