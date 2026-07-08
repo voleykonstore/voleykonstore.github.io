@@ -1,0 +1,66 @@
+[
+  {
+    "model": "Li-Ning Way of Wade 10",
+    "brand": "Li-Ning",
+    "sport": "basket",
+    "priceFrom": 8900,
+    "note": "Амортизация BOOM, топ по цене/качеству",
+    "colors": [
+      { "name": "Caution", "img": "images/wow10-caution.jpg" },
+      { "name": "Wasabi", "img": "images/wow10-wasabi.jpg" },
+      { "name": "Sunshine State", "img": "images/wow10-sunshine.jpg" },
+      { "name": "Announcement", "img": "images/wow10-announcement.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Air Zoom G.T. Jump 2",
+    "brand": "Nike",
+    "sport": "basket",
+    "priceFrom": 13900,
+    "note": "Для прыжка и игры над кольцом",
+    "colors": [
+      { "name": "Greater Than Ever", "img": "images/gtjump2-greater.jpg" },
+      { "name": "Barely Grape", "img": "images/gtjump2-grape.jpg?v=2" }
+    ]
+  },
+  {
+    "model": "Nike Ja 3",
+    "brand": "Nike",
+    "sport": "basket",
+    "priceFrom": 9900,
+    "note": "Лёгкие, для быстрых гардов",
+    "colors": [
+      { "name": "Turbo Green", "img": "images/ja3-turbogreen.jpg" }
+    ]
+  },
+  {
+    "model": "Li-Ning All City 12",
+    "brand": "Li-Ning",
+    "sport": "basket",
+    "priceFrom": 7500,
+    "note": "Недорогой универсал на каждый день",
+    "colors": [
+      { "name": "Avocado", "img": "images/allcity12-avocado.jpg" }
+    ]
+  },
+  {
+    "model": "Jordan Jumpman 2021",
+    "brand": "Jordan",
+    "sport": "basket",
+    "priceFrom": 11900,
+    "note": "Классика Jordan Brand",
+    "colors": [
+      { "name": "Grape", "img": "images/jordan.jpg" }
+    ]
+  },
+  {
+    "model": "Asics Sky Elite FF MT 3",
+    "brand": "Asics",
+    "sport": "volley",
+    "priceFrom": 12900,
+    "note": "Волейбол — топовая амортизация FF",
+    "colors": [
+      { "name": "Nova Orange", "img": "images/asics-skyelite.jpg?v=2" }
+    ]
+  }
+]
