@@ -111,7 +111,7 @@ async function load(){
   });
   GROUPS=[...map.values()].map(g=>{ const key=brandKey(g.brand);
     const sizes=[...g._eu].sort((a,b)=>parseFloat(a)-parseFloat(b)).map(v=>convert(v,key));
-    let img=g.img; if(!img||/^https?:\/\/dw4\.co/i.test(img)){ const pk=norm(g.model)+"|"+norm(g.colorway); img=PHOTOS[pk]||PHOTOS[norm(g.model)]||""; }
+    let img=/\.(jpe?g|png|webp|gif|avif)(\?|#|$)/i.test(g.img||"")?g.img:""; if(!img){ const pk=norm(g.model)+"|"+norm(g.colorway); img=PHOTOS[pk]||PHOTOS[norm(g.model)]||""; }
     return {...g, img, key, gridName:GRID_NAME[key]||GRID_NAME.default, sizes}; });
   buildFilters(); render();
 }
