@@ -196,7 +196,7 @@ function renderSizes(){
 }
 /* ===== вкладка «Под заказ» (топ моделей, несколько расцветок = смена фото) ===== */
 let TOP=[], TOPFILTER="all";
-const SPORT={basket:"🏀 Баскет", volley:"🏐 Волейбол"};
+const SPORT={basket:"🏀 Баскет", volley:"🏐 Волейбол", casual:"👟 Лайфстайл"};
 async function loadTop(){
   try{ TOP=await (await fetch("top.json?t="+Date.now())).json(); }catch(e){ TOP=[]; }
   TOP=(TOP||[]).filter(m=>m&&m.model&&Array.isArray(m.colors)&&m.colors.length);
