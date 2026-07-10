@@ -1,10 +1,17 @@
 [
   {
+    "model": "Nike LeBron 22",
+    "brand": "Nike", "sport": "basket", "priceFrom": 14500,
+    "note": "Новый флагман Леброна",
+    "colors": [
+      { "name": "Blacklight", "img": "images/lebron22-blacklight.jpg" },
+      { "name": "Dunkman", "img": "images/lebron22-dunkman.jpg" }
+    ]
+  },
+  {
     "model": "Nike LeBron 21",
-    "brand": "Nike",
-    "sport": "basket",
-    "priceFrom": 15000,
-    "note": "Флагман Леброна — амортизация Zoom + Cushlon",
+    "brand": "Nike", "sport": "basket", "priceFrom": 15000,
+    "note": "Флагман Леброна — Zoom + Cushlon",
     "colors": [
       { "name": "Tahitian", "img": "images/lebron21-tahitian.jpg" },
       { "name": "Purple Rain", "img": "images/lebron21-purplerain.jpg" },
@@ -12,10 +19,98 @@
     ]
   },
   {
+    "model": "Nike LeBron 20",
+    "brand": "Nike", "sport": "basket", "priceFrom": 13500,
+    "note": "Низкий флагман — лёгкий и цепкий",
+    "colors": [
+      { "name": "Pink Diamond", "img": "images/lebron20-pinkdiamond.jpg" },
+      { "name": "Black Metallic Gold", "img": "images/lebron20-blackgold.jpg" }
+    ]
+  },
+  {
+    "model": "Nike LeBron NXXT Gen",
+    "brand": "Nike", "sport": "basket", "priceFrom": 11000,
+    "note": "Технологии Леброна за меньшие деньги",
+    "colors": [
+      { "name": "First Game", "img": "images/lebronnxxt-firstgame.jpg" },
+      { "name": "Miami", "img": "images/lebronnxxt-miami.jpg" }
+    ]
+  },
+  {
+    "model": "Nike LeBron 17",
+    "brand": "Nike", "sport": "basket", "priceFrom": 12000,
+    "note": "Max Air — мягкая и мощная",
+    "colors": [
+      { "name": "Black White", "img": "images/lebron17-blackwhite.jpg" },
+      { "name": "University Red", "img": "images/lebron17-red.jpg" }
+    ]
+  },
+  {
+    "model": "Nike LeBron 16",
+    "brand": "Nike", "sport": "basket", "priceFrom": 11500,
+    "note": "Классика, универсальная амортизация",
+    "colors": [
+      { "name": "Multi-Color", "img": "images/lebron16-multicolor.jpg" },
+      { "name": "Oreo", "img": "images/lebron16-oreo.jpg" }
+    ]
+  },
+  {
+    "model": "Nike LeBron 15",
+    "brand": "Nike", "sport": "basket", "priceFrom": 11000,
+    "note": "Легенда — Max Air + Battleknit",
+    "colors": [
+      { "name": "Black Gold", "img": "images/lebron15-blackgold.jpg" },
+      { "name": "Fruity Pebbles", "img": "images/lebron15-multicolor.jpg" }
+    ]
+  },
+  {
+    "model": "Air Jordan 36",
+    "brand": "Jordan", "sport": "basket", "priceFrom": 12500,
+    "note": "Флагман Jordan — лёгкий Leno-Weave",
+    "colors": [
+      { "name": "Green and Gold", "img": "images/jordan36-greengold.jpg" },
+      { "name": "Infrared 23", "img": "images/jordan36-infrared.jpg" }
+    ]
+  },
+  {
+    "model": "Air Jordan 35",
+    "brand": "Jordan", "sport": "basket", "priceFrom": 12000,
+    "note": "Флагман Jordan — Eclipse Plate",
+    "colors": [
+      { "name": "Bred", "img": "images/jordan35-bred.jpg" },
+      { "name": "Sunset", "img": "images/jordan35-sunset.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Air Zoom G.T. Jump 2",
+    "brand": "Nike", "sport": "basket", "priceFrom": 14000,
+    "note": "Для прыжка и игры над кольцом",
+    "colors": [
+      { "name": "Greater Than Ever", "img": "images/gtjump2-greater.jpg" },
+      { "name": "Barely Grape", "img": "images/gtjump2-grape.jpg?v=2" }
+    ]
+  },
+  {
+    "model": "Nike Air Zoom G.T. Hustle 3",
+    "brand": "Nike", "sport": "basket", "priceFrom": 14500,
+    "note": "Мощный универсал для форвардов и центровых",
+    "colors": [
+      { "name": "White Royal Pulse", "img": "images/gthustle3-royalpulse.jpg" },
+      { "name": "Hyper Pink", "img": "images/gthustle3-hyperpink.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Air Zoom G.T. Cut Academy",
+    "brand": "Nike", "sport": "basket", "priceFrom": 10000,
+    "note": "Гардовый GT Cut, цепкая тяга",
+    "colors": [
+      { "name": "White Black", "img": "images/gtcutacad-white.jpg" },
+      { "name": "Oil Green", "img": "images/gtcutacad-oilgreen.jpg" }
+    ]
+  },
+  {
     "model": "Puma MB.03 (LaMelo Ball)",
-    "brand": "Puma",
-    "sport": "basket",
-    "priceFrom": 11000,
+    "brand": "Puma", "sport": "basket", "priceFrom": 11000,
     "note": "Ламело — яркие, амортизация NITRO",
     "colors": [
       { "name": "Toxic", "img": "images/mb03-toxic.jpg" },
@@ -25,9 +120,7 @@
   },
   {
     "model": "Jordan Tatum 2",
-    "brand": "Jordan",
-    "sport": "basket",
-    "priceFrom": 11000,
+    "brand": "Jordan", "sport": "basket", "priceFrom": 11000,
     "note": "Тейтум — лёгкая, отзывчивая, топ по цене",
     "colors": [
       { "name": "Mama's Boy", "img": "images/tatum2-mamasboy.jpg" },
@@ -35,32 +128,79 @@
     ]
   },
   {
-    "model": "Nike Air Zoom G.T. Jump 2",
-    "brand": "Nike",
-    "sport": "basket",
-    "priceFrom": 14000,
-    "note": "Для прыжка и игры над кольцом",
+    "model": "adidas AE1 (Anthony Edwards)",
+    "brand": "adidas", "sport": "basket", "priceFrom": 13000,
+    "note": "Энтони Эдвардс — один из самых хайповых",
     "colors": [
-      { "name": "Greater Than Ever", "img": "images/gtjump2-greater.jpg" },
-      { "name": "Barely Grape", "img": "images/gtjump2-grape.jpg?v=2" }
+      { "name": "With Love", "img": "images/ae1-lovorange.jpg" },
+      { "name": "New Wave", "img": "images/ae1-newwave.jpg" }
     ]
   },
   {
-    "model": "Nike Air Zoom G.T. Hustle 3",
-    "brand": "Nike",
-    "sport": "basket",
-    "priceFrom": 14500,
-    "note": "Мощный универсал для форвардов и центровых",
+    "model": "Anta Kai 1 (Kyrie)",
+    "brand": "Anta", "sport": "basket", "priceFrom": 10000,
+    "note": "Сигнатурка Кайри — хайп, отличная тяга",
     "colors": [
-      { "name": "White Royal Pulse", "img": "images/gthustle3-royalpulse.jpg" },
-      { "name": "Hyper Pink", "img": "images/gthustle3-hyperpink.jpg" }
+      { "name": "Artist On Court", "img": "images/antakai1-artist.jpg" },
+      { "name": "Jelly", "img": "images/antakai1-jelly.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Sabrina 2",
+    "brand": "Nike", "sport": "basket", "priceFrom": 11000,
+    "note": "Лучшая тяга, унисекс",
+    "colors": [
+      { "name": "White Noise", "img": "images/sabrina2-whitenoise.jpg" },
+      { "name": "Pink Foam", "img": "images/sabrina2-pinkfoam.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Sabrina 1",
+    "brand": "Nike", "sport": "basket", "priceFrom": 10500,
+    "note": "Универсальная, цепкая, унисекс",
+    "colors": [
+      { "name": "Family Bonds", "img": "images/sabrina1-familybonds.jpg" },
+      { "name": "Spark", "img": "images/sabrina1-spark.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Zoom Freak 4",
+    "brand": "Nike", "sport": "basket", "priceFrom": 10500,
+    "note": "Джаннис — цепкая, для рывков и напора",
+    "colors": [
+      { "name": "University Red", "img": "images/freak4-red.jpg" },
+      { "name": "All-Star", "img": "images/freak4-allstar.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Ja 3",
+    "brand": "Nike", "sport": "basket", "priceFrom": 11000,
+    "note": "Лёгкие, для быстрых гардов",
+    "colors": [
+      { "name": "Turbo Green", "img": "images/ja3-turbogreen.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Ja 2",
+    "brand": "Nike", "sport": "basket", "priceFrom": 9500,
+    "note": "Лёгкие, взрывные — для гардов",
+    "colors": [
+      { "name": "Stargazer", "img": "images/ja2-stargazer.jpg" },
+      { "name": "Kool-Aid", "img": "images/ja2-koolaid.jpg" }
+    ]
+  },
+  {
+    "model": "Li-Ning Way of Wade 11",
+    "brand": "Li-Ning", "sport": "basket", "priceFrom": 11000,
+    "note": "Флагман Уэйда — амортизация BOOM",
+    "colors": [
+      { "name": "305", "img": "images/wow11-305.jpg" },
+      { "name": "Blossom", "img": "images/wow11-blossom.jpg" }
     ]
   },
   {
     "model": "Li-Ning Way of Wade 10",
-    "brand": "Li-Ning",
-    "sport": "basket",
-    "priceFrom": 9000,
+    "brand": "Li-Ning", "sport": "basket", "priceFrom": 9000,
     "note": "Амортизация BOOM, топ по цене/качеству",
     "colors": [
       { "name": "Caution", "img": "images/wow10-caution.jpg" },
@@ -70,21 +210,34 @@
     ]
   },
   {
-    "model": "Nike Zoom Freak 4",
-    "brand": "Nike",
-    "sport": "basket",
-    "priceFrom": 10500,
-    "note": "Джаннис — цепкая, для рывков и напора",
+    "model": "Li-Ning Wade Shadow 6",
+    "brand": "Li-Ning", "sport": "basket", "priceFrom": 9000,
+    "note": "Сигнатурка Уэйда — топ цена/качество",
     "colors": [
-      { "name": "University Red", "img": "images/freak4-red.jpg" },
-      { "name": "All-Star", "img": "images/freak4-allstar.jpg" }
+      { "name": "Announcement", "img": "images/shadow6-announcement.jpg" },
+      { "name": "Sunrise", "img": "images/shadow6-sunrise.jpg" }
+    ]
+  },
+  {
+    "model": "Li-Ning All City 12",
+    "brand": "Li-Ning", "sport": "basket", "priceFrom": 8500,
+    "note": "Недорогой универсал на каждый день",
+    "colors": [
+      { "name": "Avocado", "img": "images/allcity12-avocado.jpg" }
+    ]
+  },
+  {
+    "model": "Li-Ning All City 11",
+    "brand": "Li-Ning", "sport": "basket", "priceFrom": 8000,
+    "note": "Недорогой универсал, хорошая амортизация",
+    "colors": [
+      { "name": "Sunrise", "img": "images/allcity11-sunrise.jpg" },
+      { "name": "Team No Sleep", "img": "images/allcity11-nosleep.jpg" }
     ]
   },
   {
     "model": "Nike LeBron Witness 7",
-    "brand": "Nike",
-    "sport": "basket",
-    "priceFrom": 10000,
+    "brand": "Nike", "sport": "basket", "priceFrom": 10000,
     "note": "Бюджетный Леброн, надёжный на сезон",
     "colors": [
       { "name": "Lakers", "img": "images/witness7-lakers.jpg" },
@@ -93,43 +246,73 @@
     ]
   },
   {
-    "model": "Nike Ja 3",
-    "brand": "Nike",
-    "sport": "basket",
-    "priceFrom": 11000,
-    "note": "Лёгкие, для быстрых гардов",
+    "model": "Nike Air Max Impact 4",
+    "brand": "Nike", "sport": "basket", "priceFrom": 9000,
+    "note": "Бюджет для команды, надёжная",
     "colors": [
-      { "name": "Turbo Green", "img": "images/ja3-turbogreen.jpg" }
+      { "name": "White Platinum", "img": "images/impact4-white.jpg" },
+      { "name": "Black Racer Blue", "img": "images/impact4-blackblue.jpg" }
     ]
   },
   {
-    "model": "Li-Ning All City 12",
-    "brand": "Li-Ning",
-    "sport": "basket",
-    "priceFrom": 8500,
-    "note": "Недорогой универсал на каждый день",
+    "model": "Nike Air Max Impact 3",
+    "brand": "Nike", "sport": "basket", "priceFrom": 8500,
+    "note": "Проверенный бюджетник",
     "colors": [
-      { "name": "Avocado", "img": "images/allcity12-avocado.jpg" }
+      { "name": "Black White", "img": "images/impact3-blackwhite.jpg" },
+      { "name": "Cool Grey", "img": "images/impact3-coolgrey.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Zoom Rize 2",
+    "brand": "Nike", "sport": "basket", "priceFrom": 8500,
+    "note": "Командная, стабильная посадка",
+    "colors": [
+      { "name": "Hyper Violet", "img": "images/rize2-violet.jpg" },
+      { "name": "Black White", "img": "images/rize2-black.jpg" }
     ]
   },
   {
     "model": "Jordan Jumpman 2021",
-    "brand": "Jordan",
-    "sport": "basket",
-    "priceFrom": 10500,
+    "brand": "Jordan", "sport": "basket", "priceFrom": 10500,
     "note": "Классика Jordan Brand",
     "colors": [
       { "name": "Grape", "img": "images/jordan.jpg" }
     ]
   },
   {
+    "model": "Nike React Hyperset",
+    "brand": "Nike", "sport": "volley", "priceFrom": 10000,
+    "note": "Волейбол — цепкая, отзывчивая",
+    "colors": [
+      { "name": "White Gum", "img": "images/hyperset-whitegum.jpg" },
+      { "name": "White Gold SE", "img": "images/hyperset-goldse.jpg" }
+    ]
+  },
+  {
+    "model": "Nike Hyperset 2",
+    "brand": "Nike", "sport": "volley", "priceFrom": 11000,
+    "note": "Волейбол — новая версия",
+    "colors": [
+      { "name": "White Game Royal", "img": "images/hyperset2-royal.jpg" },
+      { "name": "Black White", "img": "images/hyperset2-black.jpg" }
+    ]
+  },
+  {
     "model": "Asics Sky Elite FF 3",
-    "brand": "Asics",
-    "sport": "volley",
-    "priceFrom": 13000,
+    "brand": "Asics", "sport": "volley", "priceFrom": 13000,
     "note": "Волейбол — топовая амортизация FF Blast+",
     "colors": [
       { "name": "White / Vivid Coral", "img": "images/asics-skyelite.jpg?v=4" }
+    ]
+  },
+  {
+    "model": "Mizuno Wave Lightning Z7",
+    "brand": "Mizuno", "sport": "volley", "priceFrom": 13000,
+    "note": "Волейбол — классика, Mizuno Wave",
+    "colors": [
+      { "name": "Neon Flame", "img": "images/wavelightningz7-pink.png" },
+      { "name": "White Navy", "img": "images/wavelightningz7-white.png" }
     ]
   }
 ]
