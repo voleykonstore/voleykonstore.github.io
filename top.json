@@ -373,7 +373,12 @@
   ,{
     "model": "Nike Freak 3",
     "brand": "Nike", "sport": "basket", "priceFrom": 12040,
-    "colors": [ { "name": "", "img": "images/vk-nike-freak-3.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-freak-3.jpg" },
+      { "name": "Primary Colors", "img": "images/freak3-primary.jpg" },
+      { "name": "Cave Purple", "img": "images/freak3-cavepurple.jpg" },
+      { "name": "Vibrant Aqua", "img": "images/freak3-aqua.jpg" }
+    ]
   }
   ,{
     "model": "Asics Upcourt 5",
@@ -398,7 +403,12 @@
   ,{
     "model": "Puma Palermo",
     "brand": "Puma", "sport": "casual", "priceFrom": 5501,
-    "colors": [ { "name": "", "img": "images/vk-puma-palermo.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-puma-palermo.jpg" },
+      { "name": "Archive Green", "img": "images/palermo-green.jpg" },
+      { "name": "White Gum", "img": "images/palermo-white.jpg" },
+      { "name": "White Gum W", "img": "images/palermo-whitew.jpg" }
+    ]
   }
   ,{
     "model": "Puma Morphic",
@@ -428,12 +438,22 @@
   ,{
     "model": "Nike Dunk",
     "brand": "Nike", "sport": "casual", "priceFrom": 4457,
-    "colors": [ { "name": "", "img": "images/vk-nike-dunk.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-dunk.jpg" },
+      { "name": "Panda", "img": "images/dunk-panda.jpg" },
+      { "name": "Grey Fog", "img": "images/dunk-greyfog.jpg" },
+      { "name": "USC", "img": "images/dunk-usc.jpg" }
+    ]
   }
   ,{
     "model": "Nike Cortez Nylon",
     "brand": "Nike", "sport": "casual", "priceFrom": 5313,
-    "colors": [ { "name": "", "img": "images/vk-nike-cortez-nylon.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-cortez-nylon.jpg" },
+      { "name": "Los Angeles", "img": "images/cortez-la.jpg" },
+      { "name": "Forrest Gump", "img": "images/cortez-forrest.jpg" },
+      { "name": "Nylon OG", "img": "images/cortez-nylonog.jpg" }
+    ]
   }
   ,{
     "model": "Nike Alpha Force",
@@ -448,7 +468,12 @@
   ,{
     "model": "Nike Air Force 1",
     "brand": "Nike", "sport": "casual", "priceFrom": 8221,
-    "colors": [ { "name": "", "img": "images/vk-nike-air-force-1.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-air-force-1.jpg" },
+      { "name": "White '07", "img": "images/af1-white.jpg" },
+      { "name": "Triple White", "img": "images/af1-triplewhite.jpg" },
+      { "name": "Black Gum", "img": "images/af1-blackgum.jpg" }
+    ]
   }
   ,{
     "model": "New Balance Fresh Foam X 880v13",
@@ -458,17 +483,32 @@
   ,{
     "model": "New Balance 9060",
     "brand": "New Balance", "sport": "casual", "priceFrom": 6086,
-    "colors": [ { "name": "", "img": "images/vk-new-balance-9060.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-new-balance-9060.jpg" },
+      { "name": "Grey White", "img": "images/nb9060-grey.jpg" },
+      { "name": "Sea Salt", "img": "images/nb9060-seasalt.jpg" },
+      { "name": "Black White", "img": "images/nb9060-black.jpg" }
+    ]
   }
   ,{
     "model": "New Balance 1906R",
     "brand": "New Balance", "sport": "casual", "priceFrom": 6906,
-    "colors": [ { "name": "", "img": "images/vk-new-balance-1906r.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-new-balance-1906r.jpg" },
+      { "name": "Black Grey", "img": "images/nb1906r-black.jpg" },
+      { "name": "Slate Grey", "img": "images/nb1906r-slate.jpg" },
+      { "name": "White Cream", "img": "images/nb1906r-white.jpg" }
+    ]
   }
   ,{
     "model": "New Balance 1000",
     "brand": "New Balance", "sport": "casual", "priceFrom": 6086,
-    "colors": [ { "name": "", "img": "images/vk-new-balance-1000.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-new-balance-1000.jpg" },
+      { "name": "Pink Sandstone", "img": "images/nb1000-pink.jpg" },
+      { "name": "Reflective Black", "img": "images/nb1000-black.jpg" },
+      { "name": "Dark Olivine", "img": "images/nb1000-olivine.jpg" }
+    ]
   }
   ,{
     "model": "Asics Gel Lyte 5",
@@ -478,47 +518,92 @@
   ,{
     "model": "Air Jordan 1",
     "brand": "Jordan", "sport": "basket", "priceFrom": 6320,
-    "colors": [ { "name": "", "img": "images/vk-air-jordan-1.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-air-jordan-1.jpg" },
+      { "name": "Low Shadow", "img": "images/aj1-lowshadow.jpg" },
+      { "name": "High White Cement", "img": "images/aj1-whitecement.jpg" },
+      { "name": "Off-White Chicago", "img": "images/aj1-offwhite.jpg" }
+    ]
   }
   ,{
     "model": "Adidas SL 72",
     "brand": "Adidas", "sport": "casual", "priceFrom": 5618,
-    "colors": [ { "name": "", "img": "images/vk-adidas-sl-72.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-sl-72.jpg" },
+      { "name": "Blue White Red", "img": "images/sl72-blue.jpg" },
+      { "name": "Core Black", "img": "images/sl72-black.jpg" },
+      { "name": "Maroon", "img": "images/sl72-maroon.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Samba",
     "brand": "Adidas", "sport": "casual", "priceFrom": 6836,
-    "colors": [ { "name": "", "img": "images/vk-adidas-samba.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-samba.jpg" },
+      { "name": "Cloud White", "img": "images/samba-white.jpg" },
+      { "name": "White Green", "img": "images/samba-green.jpg" },
+      { "name": "Off White", "img": "images/samba-offwhite.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Gazelle",
     "brand": "Adidas", "sport": "casual", "priceFrom": 6965,
-    "colors": [ { "name": "", "img": "images/vk-adidas-gazelle.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-gazelle.jpg" },
+      { "name": "Shadow Green", "img": "images/gazelle-green.jpg" },
+      { "name": "College Navy", "img": "images/gazelle-navy.jpg" },
+      { "name": "Collegiate Green", "img": "images/gazelle-collegiate.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Campus",
     "brand": "Adidas", "sport": "casual", "priceFrom": 6192,
-    "colors": [ { "name": "", "img": "images/vk-adidas-campus.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-campus.jpg" },
+      { "name": "Core Black", "img": "images/campus-black.jpg" },
+      { "name": "Black White", "img": "images/campus-bw.jpg" },
+      { "name": "Dark Green", "img": "images/campus-green.jpg" }
+    ]
   }
   ,{
     "model": "Puma MB.01",
     "brand": "Puma", "sport": "basket", "priceFrom": 8436,
-    "colors": [ { "name": "", "img": "images/vk-puma-mb-01.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-puma-mb-01.jpg" },
+      { "name": "Galaxy", "img": "images/mb01-galaxy.jpg" },
+      { "name": "Red Blast", "img": "images/mb01-redblast.jpg" },
+      { "name": "Mash Up", "img": "images/mb01-mashup.jpg" }
+    ]
   }
   ,{
     "model": "Nike PG 5",
     "brand": "Nike", "sport": "basket", "priceFrom": 10419,
-    "colors": [ { "name": "", "img": "images/vk-nike-pg-5.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-pg-5.jpg" },
+      { "name": "Black Lapis", "img": "images/pg5-blacklapis.jpg" },
+      { "name": "PlayStation Blue", "img": "images/pg5-psblue.jpg" },
+      { "name": "PlayStation White", "img": "images/pg5-pswhite.jpg" }
+    ]
   }
   ,{
     "model": "Nike PG 3",
     "brand": "Nike", "sport": "basket", "priceFrom": 9599,
-    "colors": [ { "name": "", "img": "images/vk-nike-pg-3.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-pg-3.jpg" },
+      { "name": "NASA", "img": "images/pg3-nasa.jpg" },
+      { "name": "Monochrome", "img": "images/pg3-mono.jpg" },
+      { "name": "ACG", "img": "images/pg3-acg.jpg" }
+    ]
   }
   ,{
     "model": "Nike Air Zoom GT Cut 2",
     "brand": "Nike", "sport": "basket", "priceFrom": 9576,
-    "colors": [ { "name": "", "img": "images/vk-nike-air-zoom-gt-cut-2.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-air-zoom-gt-cut-2.jpg" },
+      { "name": "Swoosh Sly", "img": "images/gtcut2-swooshsly.jpg" },
+      { "name": "Phantom Orange", "img": "images/gtcut2-phantom.jpg" },
+      { "name": "Industrial Blue", "img": "images/gtcut2-industrial.jpg" }
+    ]
   }
   ,{
     "model": "New Balance Two WXY",
@@ -528,7 +613,12 @@
   ,{
     "model": "Anta KT 4",
     "brand": "Anta", "sport": "basket", "priceFrom": 6086,
-    "colors": [ { "name": "", "img": "images/vk-anta-kt-4.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-anta-kt-4.jpg" },
+      { "name": "Home", "img": "images/kt4-home.jpg" },
+      { "name": "Away", "img": "images/kt4-away.jpg" },
+      { "name": "Make It Rain", "img": "images/kt4-rain.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Harden Vol.3",
@@ -538,22 +628,42 @@
   ,{
     "model": "Air Jordan 34",
     "brand": "Jordan", "sport": "basket", "priceFrom": 7843,
-    "colors": [ { "name": "", "img": "images/vk-air-jordan-34.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-air-jordan-34.jpg" },
+      { "name": "Amber Rise", "img": "images/aj34-amber.jpg" },
+      { "name": "Black Cat", "img": "images/aj34-blackcat.jpg" },
+      { "name": "Paris", "img": "images/aj34-paris.jpg" }
+    ]
   }
   ,{
     "model": "Nike KD 14",
     "brand": "Nike", "sport": "basket", "priceFrom": 10185,
-    "colors": [ { "name": "", "img": "images/vk-nike-kd-14.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-kd-14.jpg" },
+      { "name": "Bred", "img": "images/kd14-bred.jpg" },
+      { "name": "Multicolor", "img": "images/kd14-multi.jpg" },
+      { "name": "Pop Art", "img": "images/kd14-popart.jpg" }
+    ]
   }
   ,{
     "model": "Nike KD 15",
     "brand": "Nike", "sport": "basket", "priceFrom": 10673,
-    "colors": [ { "name": "", "img": "images/vk-nike-kd-15.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-kd-15.jpg" },
+      { "name": "Beginnings", "img": "images/kd15-beginnings.jpg" },
+      { "name": "Psychic Purple", "img": "images/kd15-psychic.jpg" },
+      { "name": "What The", "img": "images/kd15-whatthe.jpg" }
+    ]
   }
   ,{
     "model": "Nike Lebron 19",
     "brand": "Nike", "sport": "basket", "priceFrom": 6940,
-    "colors": [ { "name": "", "img": "images/vk-nike-lebron-19.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-lebron-19.jpg" },
+      { "name": "Bred", "img": "images/lebron19-bred.jpg" },
+      { "name": "Low Witness", "img": "images/lebron19-witness.jpg" },
+      { "name": "Low Blue Chill", "img": "images/lebron19-bluechill.jpg" }
+    ]
   }
   ,{
     "model": "Nike Zoom Rize",
@@ -638,7 +748,12 @@
   ,{
     "model": "Nike Air Zoom G.T. Cut",
     "brand": "Nike", "sport": "basket", "priceFrom": 7932,
-    "colors": [ { "name": "", "img": "images/vk-nike-air-zoom-g-t-cut.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-air-zoom-g-t-cut.jpg" },
+      { "name": "Black Chrome", "img": "images/gtcut-blackchrome.jpg" },
+      { "name": "Laser Blue", "img": "images/gtcut-laserblue.jpg" },
+      { "name": "Crimson", "img": "images/gtcut-crimson.jpg" }
+    ]
   }
   ,{
     "model": "Nike Hyperspeed Court",
@@ -648,7 +763,12 @@
   ,{
     "model": "Nike Lebron 18",
     "brand": "Nike", "sport": "basket", "priceFrom": 10465,
-    "colors": [ { "name": "", "img": "images/vk-nike-lebron-18.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-lebron-18.jpg" },
+      { "name": "LA By Day", "img": "images/lebron18-day.jpg" },
+      { "name": "LA By Night", "img": "images/lebron18-night.jpg" },
+      { "name": "Reflections", "img": "images/lebron18-reflections.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Court Vision 3",
