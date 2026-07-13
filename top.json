@@ -318,32 +318,56 @@
   ,{
     "model": "Asics Gel-Tactic 12",
     "brand": "Asics", "sport": "volley", "priceFrom": 13364,
-    "colors": [ { "name": "", "img": "images/vk-asics-gel-tactic-12.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-gel-tactic-12.jpg" },
+      { "name": "White/Black", "img": "images/asics-tactic12-a.jpg" },
+      { "name": "Black/White", "img": "images/asics-tactic12-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Gel-Court Hunter 3",
     "brand": "Asics", "sport": "volley", "priceFrom": 12005,
-    "colors": [ { "name": "", "img": "images/vk-asics-gel-court-hunter-3.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-gel-court-hunter-3.jpg" },
+      { "name": "Black/White", "img": "images/asics-hunter3-a.jpg" },
+      { "name": "Denim Blue/Lime", "img": "images/asics-hunter3-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Gel-Task 3",
     "brand": "Asics", "sport": "volley", "priceFrom": 14445,
-    "colors": [ { "name": "", "img": "images/vk-asics-gel-task-3.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-gel-task-3.jpg" },
+      { "name": "Black/White", "img": "images/asics-task3-a.jpg" },
+      { "name": "Blue", "img": "images/asics-task3-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Blade FF",
     "brand": "Asics", "sport": "volley", "priceFrom": 10434,
-    "colors": [ { "name": "", "img": "images/vk-asics-blade-ff.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-blade-ff.jpg" },
+      { "name": "White/Mako Blue", "img": "images/asics-blade-a.jpg" },
+      { "name": "Saba Blue/White", "img": "images/asics-blade-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Gel-Rocket 11",
     "brand": "Asics", "sport": "volley", "priceFrom": 13364,
-    "colors": [ { "name": "", "img": "images/vk-asics-gel-rocket-11.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-gel-rocket-11.jpg" },
+      { "name": "White/Black", "img": "images/asics-rocket11-a.jpg" },
+      { "name": "Black/Waterscape", "img": "images/asics-rocket11-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Beyond FF",
     "brand": "Asics", "sport": "volley", "priceFrom": 9996,
-    "colors": [ { "name": "", "img": "images/vk-asics-beyond-ff.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-beyond-ff.jpg" },
+      { "name": "White/Morganite", "img": "images/asics-beyond-a.jpg" },
+      { "name": "Saba Blue/Cool Grey", "img": "images/asics-beyond-b.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Crazyflight Shoes",
@@ -383,7 +407,11 @@
   ,{
     "model": "Asics Upcourt 5",
     "brand": "Asics", "sport": "volley", "priceFrom": 10192,
-    "colors": [ { "name": "", "img": "images/vk-asics-upcourt-5.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-upcourt-5.jpg" },
+      { "name": "White/Indigo", "img": "images/asics-upcourt5-a.jpg" },
+      { "name": "Black/Red", "img": "images/asics-upcourt5-b.jpg" }
+    ]
   }
   ,{
     "model": "Adidas Stabil Next Gen",
@@ -673,7 +701,11 @@
   ,{
     "model": "Asics Sky Elite FF 2",
     "brand": "Asics", "sport": "volley", "priceFrom": 10887,
-    "colors": [ { "name": "", "img": "images/vk-asics-sky-elite-ff-2.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-sky-elite-ff-2.jpg" },
+      { "name": "White", "img": "images/asics-skyelite2-a.jpg" },
+      { "name": "White/Blue Violet", "img": "images/asics-skyelite2-b.jpg" }
+    ]
   }
   ,{
     "model": "Adidas D.O.N. Issue #2",
@@ -718,12 +750,20 @@
   ,{
     "model": "Asics Metarise",
     "brand": "Asics", "sport": "volley", "priceFrom": 15650,
-    "colors": [ { "name": "", "img": "images/vk-asics-metarise.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-metarise.jpg" },
+      { "name": "White/Indigo Fog", "img": "images/asics-metarise-a.jpg" },
+      { "name": "White/Saba Blue", "img": "images/asics-metarise-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Netburner Ballistic",
     "brand": "Asics", "sport": "volley", "priceFrom": 10791,
-    "colors": [ { "name": "", "img": "images/vk-asics-netburner-ballistic.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-asics-netburner-ballistic.jpg" },
+      { "name": "Black/White", "img": "images/asics-netburner-a.jpg" },
+      { "name": "White/Black", "img": "images/asics-netburner-b.jpg" }
+    ]
   }
   ,{
     "model": "Jordan Why Not Zer0.3",
