@@ -21,6 +21,8 @@ html,body{margin:0;background:var(--bg);color:var(--txt);
   font-family:Oswald,sans-serif;font-weight:600;font-size:14px;letter-spacing:.5px;
   padding:9px 16px;border-radius:22px;cursor:pointer;white-space:nowrap;transition:.15s}
 .chip.active{background:var(--lime);color:#0E0E10;border-color:var(--lime)}
+.chip.hot{border-color:var(--lime);color:var(--lime)}
+.chip.hot.active{background:var(--lime);color:#0E0E10}
 
 /* grid */
 .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}

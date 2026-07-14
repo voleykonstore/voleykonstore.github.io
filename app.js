@@ -118,10 +118,11 @@ async function load(){
 
 function buildFilters(){
   const brands=[...new Set(GROUPS.map(g=>g.brand).filter(Boolean))];
-  const defs=[["all","Все"],["in","В наличии"]].concat(brands.map(b=>["b:"+b,b]));
+  const nIn=GROUPS.filter(g=>g.inStock).length;
+  const defs=[["all","Все"],["in","🟢 В наличии"+(nIn?" · "+nIn:"")]].concat(brands.map(b=>["b:"+b,b]));
   const f=$("#filters"); f.innerHTML="";
   defs.forEach(([k,label])=>{ const el=document.createElement("button");
-    el.className="chip"+(k===FILTER?" active":""); el.textContent=label;
+    el.className="chip"+(k==="in"?" hot":"")+(k===FILTER?" active":""); el.textContent=label;
     el.onclick=()=>{FILTER=k;[...f.children].forEach(c=>c.classList.remove("active"));el.classList.add("active");render();};
     f.appendChild(el); });
 }
@@ -141,7 +142,7 @@ const convLine = s => s ? `EU ${s.eu}${s.us?" · US "+s.us:""}${s.cm?" · "+s.cm
 const priceFmt = p => { p=String(p||"").trim(); if(!p) return ""; return /^\d[\d\s]*$/.test(p) ? p.replace(/\s/g,"").replace(/\B(?=(\d{3})+(?!\d))/g," ")+" ₽" : p; };
 
 function render(){
-  const wrap=$("#grid"), list=GROUPS.filter(match);
+  const wrap=$("#grid"), list=GROUPS.filter(match).sort((a,b)=>(b.inStock?1:0)-(a.inStock?1:0));
   if(!list.length){ wrap.innerHTML='<div class="empty">Пока пусто в этом разделе 👟</div>'; return; }
   wrap.innerHTML="";
   list.forEach(g=>{
