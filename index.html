@@ -55,8 +55,30 @@
   </div>
 </div>
 <div class="foot">
-  <a class="cta" href="https://t.me/offangle1" target="_blank">Задать вопрос → @offangle1</a>
+  <a class="cta" id="cta" href="https://t.me/offangle1" target="_blank" style="transition:opacity .35s ease">Задать вопрос → @offangle1</a>
 </div>
+<script>
+(function(){
+  var el=document.getElementById('cta'); if(!el) return;
+  var phrases=[
+    'Задать вопрос',
+    'Подобрать размер',
+    'Нужна помощь?',
+    'Написать нам',
+    'Заказать в ЛС',
+    'Есть вопрос? Пишите'
+  ];
+  var i=0, tail=' → @offangle1';
+  setInterval(function(){
+    el.style.opacity='0';
+    setTimeout(function(){
+      i=(i+1)%phrases.length;
+      el.textContent=phrases[i]+tail;
+      el.style.opacity='1';
+    },350);
+  },3500);
+})();
+</script>
 <script src="app.js?v=9"></script>
 </body>
 </html>
