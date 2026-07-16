@@ -6,6 +6,8 @@
     "colors": [
       { "name": "Blacklight", "img": "images/lebron22-blacklight.jpg" },
       { "name": "Dunkman", "img": "images/lebron22-dunkman.jpg" }
+      ,{ "name": "Mogul", "img": "images/lebron22-mogul.jpg" }
+      ,{ "name": "I Promise", "img": "images/lebron22-ipromise.jpg" }
     ]
   },
   {
@@ -16,6 +18,8 @@
       { "name": "Tahitian", "img": "images/lebron21-tahitian.jpg" },
       { "name": "Purple Rain", "img": "images/lebron21-purplerain.jpg" },
       { "name": "Easter", "img": "images/lebron21-easter.jpg" }
+      ,{ "name": "Algae", "img": "images/lebron21-algae.jpg" }
+      ,{ "name": "Cool Grey", "img": "images/lebron21-coolgrey.jpg" }
     ]
   },
   {
@@ -25,6 +29,9 @@
     "colors": [
       { "name": "Pink Diamond", "img": "images/lebron20-pinkdiamond.jpg" },
       { "name": "Black Metallic Gold", "img": "images/lebron20-blackgold.jpg" }
+      ,{ "name": "Violet Frost", "img": "images/lebron20-violetfrost.jpg" }
+      ,{ "name": "All-Star", "img": "images/lebron20-allstar.jpg" }
+      ,{ "name": "Time Machine", "img": "images/lebron20-timemachine.jpg" }
     ]
   },
   {
@@ -43,6 +50,9 @@
     "colors": [
       { "name": "Black White", "img": "images/lebron17-blackwhite.jpg" },
       { "name": "University Red", "img": "images/lebron17-red.jpg" }
+      ,{ "name": "Future Air", "img": "images/lebron17-futureair.jpg" }
+      ,{ "name": "Air Command Force", "img": "images/lebron17-commandforce.jpg" }
+      ,{ "name": "NYC Remix", "img": "images/lebron17-nycremix.jpg" }
     ]
   },
   {
@@ -52,6 +62,8 @@
     "colors": [
       { "name": "Multi-Color", "img": "images/lebron16-multicolor.jpg" },
       { "name": "Oreo", "img": "images/lebron16-oreo.jpg" }
+      ,{ "name": "Fresh Bred", "img": "images/lebron16-freshbred.jpg" }
+      ,{ "name": "Watch the Throne", "img": "images/lebron16-throne.jpg" }
     ]
   },
   {
@@ -70,6 +82,8 @@
     "colors": [
       { "name": "Green and Gold", "img": "images/jordan36-greengold.jpg" },
       { "name": "Infrared 23", "img": "images/jordan36-infrared.jpg" }
+      ,{ "name": "First Light", "img": "images/jordan36-firstlight.jpg" }
+      ,{ "name": "Psychic Energy", "img": "images/jordan36-psychic.jpg" }
     ]
   },
   {
@@ -79,6 +93,9 @@
     "colors": [
       { "name": "Bred", "img": "images/jordan35-bred.jpg" },
       { "name": "Sunset", "img": "images/jordan35-sunset.jpg" }
+      ,{ "name": "Paris", "img": "images/jordan35-paris.jpg" }
+      ,{ "name": "Dynasties", "img": "images/jordan35-dynasties.jpg" }
+      ,{ "name": "Center of Gravity", "img": "images/jordan35-cog.jpg" }
     ]
   },
   {
@@ -116,6 +133,8 @@
       { "name": "Toxic", "img": "images/mb03-toxic.jpg" },
       { "name": "Blue Hive", "img": "images/mb03-bluehive.jpg" },
       { "name": "KidSuper", "img": "images/mb03-kidsuper.jpg" }
+      ,{ "name": "Chino Hills", "img": "images/mb03-chinohills.jpg" }
+      ,{ "name": "Dexter's Laboratory", "img": "images/mb03-dexter.jpg" }
     ]
   },
   {
@@ -125,6 +144,8 @@
     "colors": [
       { "name": "Mama's Boy", "img": "images/tatum2-mamasboy.jpg" },
       { "name": "Neon", "img": "images/tatum2-neon.jpg" }
+      ,{ "name": "Red Cement", "img": "images/tatum2-redcement.jpg" }
+      ,{ "name": "Vortex", "img": "images/tatum2-vortex.jpg" }
     ]
   },
   {
@@ -134,6 +155,9 @@
     "colors": [
       { "name": "With Love", "img": "images/ae1-lovorange.jpg" },
       { "name": "New Wave", "img": "images/ae1-newwave.jpg" }
+      ,{ "name": "Velocity Blue", "img": "images/ae1-velocityblue.jpg" }
+      ,{ "name": "All-Star", "img": "images/ae1-allstar.jpg" }
+      ,{ "name": "Coral", "img": "images/ae1-coral.jpg" }
     ]
   },
   {
@@ -170,6 +194,7 @@
     "colors": [
       { "name": "University Red", "img": "images/freak4-red.jpg" },
       { "name": "All-Star", "img": "images/freak4-allstar.jpg" }
+      ,{ "name": "Barely Volt", "img": "images/freak4-barelyvolt.jpg" }
     ]
   },
   {
@@ -178,6 +203,8 @@
     "note": "Лёгкие, для быстрых гардов",
     "colors": [
       { "name": "Turbo Green", "img": "images/ja3-turbogreen.jpg" }
+      ,{ "name": "Coconut Milk", "img": "images/ja3-coconut.jpg" }
+      ,{ "name": "Mink Brown", "img": "images/ja3-mink.jpg" }
     ]
   },
   {
