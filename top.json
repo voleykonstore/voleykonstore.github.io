@@ -536,7 +536,12 @@
   ,{
     "model": "Nike Full Force",
     "brand": "Nike", "sport": "casual", "priceFrom": 5454,
-    "colors": [ { "name": "", "img": "images/vk-nike-full-force.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-full-force.jpg" },
+      { "name": "White/Black", "img": "images/ff-a.jpg" },
+      { "name": "White/Red", "img": "images/ff-b.jpg" },
+      { "name": "Black/Red", "img": "images/ff-c.jpg" }
+    ]
   }
   ,{
     "model": "Nike Dunk",
@@ -949,7 +954,11 @@
   ,{
     "model": "Adidas Court Vision 3",
     "brand": "Adidas", "sport": "casual", "priceFrom": 5460,
-    "colors": [ { "name": "", "img": "images/vk-adidas-court-vision-3.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-court-vision-3.jpg" },
+      { "name": "Black/Blue/Pink", "img": "images/cv-a.jpg" },
+      { "name": "Red", "img": "images/cv-b.jpg" }
+    ]
   }
   ,{
     "model": "Adidas D.O.N. Issue #3",
