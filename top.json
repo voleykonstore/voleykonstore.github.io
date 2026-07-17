@@ -399,27 +399,48 @@
   ,{
     "model": "Adidas Crazyflight Shoes",
     "brand": "Adidas", "sport": "volley", "priceFrom": 12662,
-    "colors": [ { "name": "", "img": "images/vk-adidas-crazyflight-shoes.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-crazyflight-shoes.jpg" },
+      { "name": "White Silver", "img": "images/cf-a.jpg" },
+      { "name": "White Black", "img": "images/cf-b.jpg" },
+      { "name": "Cloud White", "img": "images/cf-c.jpg" }
+    ]
   }
   ,{
     "model": "Mizuno Wave Voltage",
     "brand": "Mizuno", "sport": "volley", "priceFrom": 9848,
-    "colors": [ { "name": "", "img": "images/vk-mizuno-wave-voltage.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-mizuno-wave-voltage.jpg" },
+      { "name": "White/Black", "img": "images/mz-voltage-a.png" },
+      { "name": "Blue/Silver", "img": "images/mz-voltage-b.png" }
+    ]
   }
   ,{
     "model": "Mizuno Wave Luminous 2",
     "brand": "Mizuno", "sport": "volley", "priceFrom": 8676,
-    "colors": [ { "name": "", "img": "images/vk-mizuno-wave-luminous-2.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-mizuno-wave-luminous-2.jpg" },
+      { "name": "Blue/Black", "img": "images/mz-luminous-a.png" },
+      { "name": "Neon Flame", "img": "images/mz-luminous-b.png" }
+    ]
   }
   ,{
     "model": "Mizuno Cyclone Speed 4",
     "brand": "Mizuno", "sport": "volley", "priceFrom": 9227,
-    "colors": [ { "name": "", "img": "images/vk-mizuno-cyclone-speed-4.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-mizuno-cyclone-speed-4.jpg" },
+      { "name": "Blue/White", "img": "images/mz-cyclone-a.png" },
+      { "name": "White/Black", "img": "images/mz-cyclone-b.png" }
+    ]
   }
   ,{
     "model": "Mizuno Thunder Blade Z",
     "brand": "Mizuno", "sport": "volley", "priceFrom": 9227,
-    "colors": [ { "name": "", "img": "images/vk-mizuno-thunder-blade-z.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-mizuno-thunder-blade-z.jpg" },
+      { "name": "Black/White", "img": "images/mz-thunder-a.png" },
+      { "name": "White/Silver", "img": "images/mz-thunder-b.png" }
+    ]
   }
   ,{
     "model": "Nike Freak 3",
@@ -443,12 +464,21 @@
   ,{
     "model": "Adidas Stabil Next Gen",
     "brand": "Adidas", "sport": "volley", "priceFrom": 10690,
-    "colors": [ { "name": "", "img": "images/vk-adidas-stabil-next-gen.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-adidas-stabil-next-gen.jpg" },
+      { "name": "White Green", "img": "images/stabil-a.jpg" },
+      { "name": "Black Orange", "img": "images/stabil-b.png" }
+    ]
   }
   ,{
     "model": "The North Face Vectiv Traval",
     "brand": "The North Face", "sport": "casual", "priceFrom": 7491,
-    "colors": [ { "name": "", "img": "images/vk-the-north-face-vectiv-traval.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-the-north-face-vectiv-traval.jpg" },
+      { "name": "Black/Asphalt", "img": "images/vectiv-a.jpg" },
+      { "name": "Kelp/Green", "img": "images/vectiv-b.jpg" },
+      { "name": "Klein Blue", "img": "images/vectiv-c.jpg" }
+    ]
   }
   ,{
     "model": "The North Face Oxeye",
@@ -468,22 +498,40 @@
   ,{
     "model": "Puma Morphic",
     "brand": "Puma", "sport": "casual", "priceFrom": 5185,
-    "colors": [ { "name": "", "img": "images/vk-puma-morphic.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-puma-morphic.jpg" },
+      { "name": "Violet/Turquoise", "img": "images/morphic-a.jpg" },
+      { "name": "Grey/Orange", "img": "images/morphic-b.jpg" }
+    ]
   }
   ,{
     "model": "Nike Venture Runner",
     "brand": "Nike", "sport": "casual", "priceFrom": 4260,
-    "colors": [ { "name": "", "img": "images/vk-nike-venture-runner.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-venture-runner.jpg" },
+      { "name": "Black/Crimson", "img": "images/venture-a.jpg" },
+      { "name": "Midnight Navy", "img": "images/venture-b.jpg" },
+      { "name": "Fossil", "img": "images/venture-c.jpg" }
+    ]
   }
   ,{
     "model": "Nike SB Force 58",
     "brand": "Nike", "sport": "casual", "priceFrom": 5852,
-    "colors": [ { "name": "", "img": "images/vk-nike-sb-force-58.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-sb-force-58.jpg" },
+      { "name": "White", "img": "images/sbforce-a.jpg" },
+      { "name": "Dutch Blue", "img": "images/sbforce-b.jpg" },
+      { "name": "Black/White", "img": "images/sbforce-c.jpg" }
+    ]
   }
   ,{
     "model": "Nike Gamma Force",
     "brand": "Nike", "sport": "casual", "priceFrom": 5723,
-    "colors": [ { "name": "", "img": "images/vk-nike-gamma-force.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-gamma-force.jpg" },
+      { "name": "White/Black", "img": "images/gamma-a.jpg" },
+      { "name": "Malachite", "img": "images/gamma-b.jpg" }
+    ]
   }
   ,{
     "model": "Nike Full Force",
@@ -812,7 +860,11 @@
   ,{
     "model": "Nike ReNew Elevate 2",
     "brand": "Nike", "sport": "volley", "priceFrom": 5840,
-    "colors": [ { "name": "", "img": "images/vk-nike-renew-elevate-2.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-renew-elevate-2.jpg" },
+      { "name": "Black White", "img": "images/re2-a.jpg" },
+      { "name": "Wolf Grey", "img": "images/re2-b.jpg" }
+    ]
   }
   ,{
     "model": "Asics Metarise",
@@ -845,12 +897,20 @@
   ,{
     "model": "Mizuno Wave Momentum 2",
     "brand": "Mizuno", "sport": "volley", "priceFrom": 9379,
-    "colors": [ { "name": "", "img": "images/vk-mizuno-wave-momentum-2.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-mizuno-wave-momentum-2.jpg" },
+      { "name": "Black/White", "img": "images/mz-momentum2-a.png" },
+      { "name": "White/Pink", "img": "images/mz-momentum2-b.png" }
+    ]
   }
   ,{
     "model": "Mizuno Wave Momentum 3",
     "brand": "Mizuno", "sport": "volley", "priceFrom": 10826,
-    "colors": [ { "name": "", "img": "images/vk-mizuno-wave-momentum-3.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-mizuno-wave-momentum-3.jpg" },
+      { "name": "White/Silver", "img": "images/mz-momentum3-a.png" },
+      { "name": "Green", "img": "images/mz-momentum3-b.png" }
+    ]
   }
   ,{
     "model": "Nike Air Zoom BB NXT",
@@ -870,7 +930,11 @@
   ,{
     "model": "Nike Hyperspeed Court",
     "brand": "Nike", "sport": "volley", "priceFrom": 9825,
-    "colors": [ { "name": "", "img": "images/vk-nike-hyperspeed-court.jpg" } ]
+    "colors": [
+      { "name": "", "img": "images/vk-nike-hyperspeed-court.jpg" },
+      { "name": "University Red", "img": "images/hsc-a.jpg" },
+      { "name": "Game Royal", "img": "images/hsc-b.jpg" }
+    ]
   }
   ,{
     "model": "Nike Lebron 18",
